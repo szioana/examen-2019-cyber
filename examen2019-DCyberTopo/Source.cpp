@@ -29,7 +29,7 @@ harta citire_harta(const char*nume_fisier)
 	FILE*pfile_harta = fopen(nume_fisier, "rt");
 	if (!pfile_harta)
 	{
-		printf("eroare deschidere fisier!\n");
+		printf("Eroare deschidere fisier!\n");
 		_getch();
 		exit(1);
 	}
