@@ -7,8 +7,8 @@
 
 typedef struct {
 
-	char oras1[20];
-	char oras2[20];
+	char oras_1[20];
+	char oras_2[20];
 	float distanta_cm;
 	float distanta;
 
